@@ -377,6 +377,11 @@ strong {
   min-height: 665px;
   border-bottom: 15px solid var(--primary-color);
 }
+.galeria{
+  color: #FDBB2D;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: linear-gradient(90deg, #FDBB2D 0%, #22c325 100%);
+}
 
 @media screen and (min-width: 991px) {
   .hero-section {
@@ -386,7 +391,7 @@ strong {
 
 .hero-section::after {
   content: "";
-  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  /*background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);*/
   position: absolute;
   top: 0;
   right: 0;
